@@ -1,4 +1,4 @@
 import { combineReducers } from 'redux';
 import search from './search'
-
-export default combineReducers({ search })
+import booking from './booking'
+export default combineReducers({ search, booking })
